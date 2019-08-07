@@ -1,0 +1,59 @@
+body{
+	font-family: 'Fira Sans Condensed', sans-serif;
+}
+h1{
+	color: #cec8c8;
+}
+.container{
+	margin: 0 auto;
+	width: 500px;
+	height: 95vh;
+	padding: 0;
+	background-color: #322fcc;
+	text-align: center;
+}
+.top div{
+	text-align: center;
+    font-size: 80px;
+    display: inline-block;
+    color: #f7e353f7;
+    margin-top: 80px;
+}
+.check div{
+	font-size: 60px;
+	display: inline-block;
+	color: #252b71;
+	height: 100px;
+	width: 100px;
+	line-height: 100px;
+	margin: 100px 30px 0;
+	cursor: pointer;
+	background-color: #fff;
+}
+#time{
+	width: 20px;
+ 	height: 25px;
+  	background: red;
+    position:relative;
+}
+.float-left{
+	float: left;
+	font-size: 20px;
+	
+}
+.clear-float{
+	clear: both;
+}
+
+#progressContainer  {
+	background-color: #ddd;
+	margin-top: 10px;
+	width: 100%;
+}
+
+#progress {
+	width: 2%;
+	height: 30px;
+	background-color: red;
+}
+
